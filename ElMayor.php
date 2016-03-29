@@ -8,6 +8,8 @@
 		<input type="Text" name="segundo"><br>
 		<input type="Text" name="tercero"><br>
 		<input type="Submit" name="calcular" value="Calcular">
+		<input type="Submit" name="calcular2" value="Calcular2">
+		<input type="Submit" name="calcular3" value="Calcular3">
 	</form>	
 	<?php 
 		var_dump($_POST);
