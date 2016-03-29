@@ -11,9 +11,11 @@
 	</form>	
 	<?php 
 		var_dump($_POST);
-		echo "<br> EL MAYOR ES: ";
-		$maximo = max($_POST);
-		echo $maximo;
+		if (isset($_POST['primero'])) {
+			echo "<br> EL MAYOR ES: ";
+			$maximo = max($_POST);
+			echo $maximo;
+		}
 	 ?>
 </body>
 </html>
